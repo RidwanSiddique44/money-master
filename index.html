@@ -19,15 +19,17 @@
     <!------------------- main-section --------------->
     <main>
         <section class="container">
-            <div class="row g-5">
+            <div class="row gx-lg-5">
                 <!-------------- Image adding section  ------------>
                 <div class="col-sm-12 col-md-6 col-lg-6">
-                    <img class="rounded" src="image/money.png" alt="" width="530" height="815">
+                    <img class="rounded img-fluid" src="image/money.png" alt="">
                 </div>
                 <!-------------- Input adding section  ------------>
                 <div class="col-sm-12 col-md-6 col-lg-6 bg-light bg-gradient rounded p-5">
+                    <!-------------- Income input  ------------>
                     <h3 class="text-center text-dark mb-3">Income</h3>
                     <span class="fw-bold mb-3">Income: </span><input class="w-75 rounded mb-3" type="text">
+                    <!------------- expenses input  ------------>
                     <h3 class="text-center text-dark">Expenses</h3>
                     <span class="fw-bold mt-3"> Foods:</span> <input class="w-75 rounded mt-3 ms-3" type="text">
                     <br>
@@ -35,15 +37,30 @@
                     <br>
                     <span class="fw-bold mt-3">Clothes: </span><input class="w-75 rounded mt-3 ms-1" type="text">
                     <br>
+                    <!-------------- Button  -------------->
                     <div class="mt-3 d-flex justify-content-center">
                         <button class="text-light fw-bold rounded bg-info px-5 py-2">Calculate</button>
                     </div>
+                    <!-------------- Totall Count  -------------->
                     <div class="mt-3">
                         <h3 class="text-center text-dark mb-3">Total Expenses:<span>5000</span></h3>
                         <h3 class="text-center text-dark mb-3">Balance:<span>4500</span></h3>
 
                     </div>
+                    <!-------------- Saving adding section  ------------>
+                    <div class="mt-3 d-flex">
+                        <span class="fw-bold"> Save: </span> <input class="w-50 rounded" type="text">
+                        <span class="fw-bold fs-4 ms-3"> %
+                        </span> <button class="text-light fw-bold rounded bg-info px-3 ms-3"> Save</button>
+                    </div>
+                    <!-------------- Saving Count  -------------->
+                    <div class="mt-3">
+                        <h3 class="text-center text-dark mb-3">Saving Amount:<span>2000</span></h3>
+                        <h3 class="text-center text-dark mb-3">Remaining Balance:<span>4500</span></h3>
+
+                    </div>
                 </div>
+            </div>
             </div>
         </section>
     </main>
