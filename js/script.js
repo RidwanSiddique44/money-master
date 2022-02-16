@@ -9,3 +9,12 @@ document.getElementById('calculate-btn').addEventListener('click', function () {
     const totallExpenses = document.getElementById('totall-expenses');
     totallExpenses.innerText = expenses;
 })
+document.getElementById('save-button').addEventListener('click', function () {
+    const incomeInput = document.getElementById('income-input');
+    const incomeValue = parseFloat(incomeInput.value);
+    const savingInput = document.getElementById('saving-input');
+    const savingValue = parseFloat(savingInput.value);
+    const totallSave = incomeValue * savingValue / 100;
+    const savingAmount = document.getElementById('saving-amount');
+    savingAmount.innerText = totallSave;
+})
