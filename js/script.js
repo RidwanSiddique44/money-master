@@ -7,22 +7,17 @@ function getValue(cost) {
         document.getElementById('for-string').style.display = 'block';
         document.getElementById('for-negetive').style.display = 'none';
         console.log(click)
-
-
     }
     else if (amountValue < 0) {
         document.getElementById('for-negetive').style.display = 'block';
         document.getElementById('for-string').style.display = 'none';
         console.log(click)
-
-
     }
     else {
         document.getElementById('for-string').style.display = 'none';
         document.getElementById('for-negetive').style.display = 'none';
         return amountValue;
     }
-
 }
 // ------------ Remaining calculation ------------- //
 function calculate(bigValue, smallValue) {

@@ -4,15 +4,15 @@
 body{
     font-family: 'Roboto Slab', serif;
 }
-/* ---------- string handler display ---------- */
+/* ---------- string handler display ----------- */
 #for-string{
     display: none;
 }
-/* ---------- negetive handler display ---------- */
+/* --------- negetive handler display ---------- */
 #for-negetive{
     display: none;
 }
-/* ---------- logic handler display ---------- */
+/* ---------- logic handler display ----------- */
 #for-logic{
     display: none;
 }
