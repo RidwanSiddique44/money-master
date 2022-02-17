@@ -2,3 +2,15 @@
 body{
     font-family: 'Roboto Slab', serif;
 }
+#for-string{
+    display: none;
+}
+#for-negetive{
+    display: none;
+}
+#for-greater{
+    display: none;
+}
+#for-save{
+    display: none;
+}

@@ -31,42 +31,50 @@
                     <!-------------- Income input  ------------>
                     <h3 class="text-center text-dark mb-3">Income</h3>
                     <span class="fw-bold mb-3">Income: </span><input id="income-input" class="w-75 rounded mb-3"
-                        type="text" placeholder="10000">
+                        type="text" placeholder="0000">
                     <!------------- expenses input  ------------>
                     <h3 class="text-center text-dark">Expenses</h3>
                     <span class="fw-bold mt-3"> Foods:</span> <input id="food-cost" class="w-75 rounded mt-3 ms-3"
-                        type="text" placeholder="3000">
+                        type="text" placeholder="0000">
                     <br>
                     <span class="fw-bold mt-3"> Rent:</span> <input id="rent-cost" class="w-75 rounded mt-3 ms-4"
-                        type="text" placeholder="2000">
+                        type="text" placeholder="0000">
                     <br>
                     <span class="fw-bold mt-3">Clothes: </span><input id="cloth-cost" class="w-75 rounded mt-3 ms-1"
-                        type="text" placeholder="500">
+                        type="text" placeholder="0000">
                     <br>
+                    <p id="for-string" class="m-3 text-center text-danger fw-bold">! Please,Enter a number value.</p>
+                    <p id="for-negetive" class="m-3 text-center text-danger fw-bold">! Please,Enter a positive number
+                        value.</p>
                     <!-------------- Button  -------------->
                     <div id="calculate-btn" class="mt-3 d-flex justify-content-center">
                         <button class="text-light fw-bold rounded bg-info px-5 py-2">Calculate</button>
                     </div>
                     <!-------------- Totall Count  -------------->
+                    <p id="for-greater" class="m-3 text-center text-danger fw-bold">! Make sure your income is greater
+                        than your expenses.</p>
                     <div class="mt-3">
-                        <h3 class="text-center text-dark mb-3">Total Expenses:<span id="totall-expenses">5500</span>
+                        <h3 class="text-center text-dark mb-3">Total Expenses:<span id="totall-expenses">0000</span>
                         </h3>
-                        <h3 class="text-center text-dark mb-3">Balance:<span id="balance">4500</span></h3>
+                        <h3 class="text-center text-dark mb-3">Balance:<span id="balance">0000</span></h3>
 
                     </div>
                     <!-------------- Saving adding section  ------------>
                     <div class="mt-3 d-flex">
                         <span class="fw-bold mt-1">Save: </span><input id="saving-input" class="w-50 rounded ms-2"
-                            type="text" placeholder="20">
+                            type="text" placeholder="000">
                         <span class="fw-bold fs-4 ms-3"> %
                         </span> <button id="save-button" class="text-light fw-bold rounded bg-info px-3 ms-3">
                             Save</button>
                     </div>
                     <!-------------- Saving Count  -------------->
+                    <p id="for-save" class="m-3 text-center text-danger fw-bold">! Make sure you are entering a valid
+                        percentage or your balance is greater
+                        than saving.</p>
                     <div class="mt-3">
-                        <h3 class="text-center text-dark mb-3">Saving Amount:<span id="saving-amount">2000</span></h3>
+                        <h3 class="text-center text-dark mb-3">Saving Amount:<span id="saving-amount">0000</span></h3>
                         <h3 class="text-center text-dark mb-3">Remaining Balance:<span
-                                id="reamining-balance">2500</span></h3>
+                                id="reamining-balance">0000</span></h3>
 
                     </div>
                 </div>
