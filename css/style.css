@@ -1,16 +1,22 @@
+/* ----------google font link ---------- */
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+/* ------------ body style ------------ */
 body{
     font-family: 'Roboto Slab', serif;
 }
+/* ---------- string handler display ---------- */
 #for-string{
     display: none;
 }
+/* ---------- negetive handler display ---------- */
 #for-negetive{
     display: none;
 }
-#for-greater{
+/* ---------- logic handler display ---------- */
+#for-logic{
     display: none;
 }
+/* ---------- saving handler display ---------- */
 #for-save{
     display: none;
 }
